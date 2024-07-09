@@ -28,9 +28,12 @@ def get_stock_prices(ticker_list):
         for price in soup.find_all(id=htmlSelector):
             print('{0} is {1}'.format(ticker, price.text))
 
+def print_stock_scraper_welcome_message():
+    print('Welcome to my stock scraper.')
 
 def main():
     all_tickers = get_stock_tickers()
+    print_stock_scraper_welcome_message()
     get_stock_prices(all_tickers)
 
 
