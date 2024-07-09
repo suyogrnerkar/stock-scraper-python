@@ -34,6 +34,7 @@ def print_stock_scraper_welcome_message():
     print('--- Daily stock traded shown here ---')
     print('--- message 2 ---')
     print('--- message 3 ---')
+    print('--- message 4 ---')
 
 def main():
     all_tickers = get_stock_tickers()
