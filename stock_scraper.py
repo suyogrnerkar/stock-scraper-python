@@ -31,6 +31,7 @@ def get_stock_prices(ticker_list):
 def print_stock_scraper_welcome_message():
     print('Welcome to my stock scraper.')
     print('--- We show stocks information here ---')
+    print('--- Daily stock traded shown here ---')
 
 def main():
     all_tickers = get_stock_tickers()
